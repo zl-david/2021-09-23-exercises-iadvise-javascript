@@ -12,8 +12,18 @@
 
 Exercises:
 
-1. 💻 [The Calculator](./excercises/02-functions/README.md)
+1. 💻 [The Calculator](./exercises/02-functions/README.md)
 
 Resources:
 
-1. 📄 [Functions as first class citizens]('./excercises/02-functions/reference.js')
+1. 📄 [Functions as first class citizens]('./exercises/02-functions/reference.js')
+
+## 02. ES6
+
+Exercises:
+
+1. 💻 [General ES6 exercises](./exercises/03-es6/README.md)
+
+Resources:
+
+- 📄  [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
