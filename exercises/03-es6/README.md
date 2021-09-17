@@ -4,7 +4,7 @@
 2. run `npm install` in the exercises/03-es6 directory
 3. run `npm run test:01` to run the unit tests for the first batch of exercises.
 4. Fix everything in src/01_var_let_const.js to make all unit tests pass.
-5. Go to the next batch of exercises (e.g. `npm run test:02`)
+5. Go to the next batch of exercises, 01 - 06 (e.g. `npm run test:02`)
 6. Run `npm run test:extra` when you're done with the base exercises
 7. You can run `npm test` to run all unit tests.
 

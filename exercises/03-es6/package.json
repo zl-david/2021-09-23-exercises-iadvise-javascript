@@ -16,6 +16,7 @@
     "test:03": "jest tests/03_arrow_functions.test --watchAll",
     "test:04": "jest tests/04_destructuring.test --watchAll",
     "test:05": "jest tests/05_spread_operator.test --watchAll",
+    "test:06": "jest tests/06_arrays.test --watchAll",
     "test:extra": "jest tests/99_extra.test --watchAll"
   },
   "dependencies": {},

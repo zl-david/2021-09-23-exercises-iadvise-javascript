@@ -190,3 +190,17 @@ describe("Spread operator", () => {
     });
   });
 });
+
+
+
+
+describe("Arrays", () => {
+  describe("Array.from", () => {
+    it("we can modify the value before putting it in the array", () => {
+      const arrayLike = { 0: "one", 1: "two", length: 2 };
+      const arr = Array.from(arrayLike); // ← Change
+
+      expect(arr).toEqual(["ONE", "TWO"]);
+    });
+  });
+});
