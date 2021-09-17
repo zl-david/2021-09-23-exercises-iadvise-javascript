@@ -116,3 +116,77 @@ describe("Destructuring", () => {
     expect(`Louis' second cat is ${secondCat}`).toEqual(result);
   });
 });
+
+
+
+describe("Spread operator", () => {
+  it("pass all array values to Math.max", () => {
+    const numbers = [2, 4, 6, 8, 10];
+    const result = Math.max(numbers); // ← Change right-hand side of assignment
+
+    expect(result).toEqual(10);
+  });
+
+  it("rest syntax to collect subset of arguments", () => {
+    const multiply = (multiplier, rest) => {
+      // ↑ Change
+      expect(multiplier).toEqual(2);
+      expect(rest).toEqual([8, 9, 6]);
+    };
+
+    multiply(2, 8, 9, 6);
+  });
+
+  it("merge deeply nested objects", () => {
+    const obj = {
+      a: {
+        a1: {
+          a11: 11,
+          a12: 12
+        },
+        a2: {
+          a21: 21,
+          a22: 22
+        }
+      },
+      b: {
+        b1: {
+          b11: 11,
+          b12: 12
+        }
+      }
+    };
+
+    const obj2 = {
+      a: {
+        a1: {
+          a13: 13
+        }
+      },
+      c: {}
+    };
+
+    const merged = {};
+
+    expect(merged).toEqual({
+      a: {
+        a1: {
+          a11: 11,
+          a12: 12,
+          a13: 13
+        },
+        a2: {
+          a21: 21,
+          a22: 22
+        }
+      },
+      b: {
+        b1: {
+          b11: 11,
+          b12: 12
+        }
+      },
+      c: {}
+    });
+  });
+});
