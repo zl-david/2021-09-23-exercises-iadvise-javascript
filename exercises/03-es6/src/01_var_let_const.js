@@ -69,32 +69,3 @@ export function exercise5() {
 
   return banana.color;
 }
-
-
-// 01.3: Extra
-
-/*
- * Change "var" to "let", and see how it impacts the value of "i" inside the callbacks.
- */
-export function exercise6() {
-  const callbacks = [];
-
-  for (var i = 0; i < 10; i++) {
-    callbacks.push(function () {
-      return i;
-    });
-  }
-
-  return callbacks;
-}
-
-/*
- * The unit test expects the second item to be an apple, not a banana.
- * "fruit" is a const, but it doesn't mean you can't change items in the array.
- * Replace the "banana" with an "apple"
- */
-export function exercise7() {
-  const fruit = ["kiwi", "banana"]; // ← Don't change this line
-
-  return fruit[1];
-}

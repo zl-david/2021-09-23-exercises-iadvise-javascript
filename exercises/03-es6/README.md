@@ -5,7 +5,8 @@
 3. run `npm run test:01` to run the unit tests for the first batch of exercises.
 4. Fix everything in src/01_var_let_const.js to make all unit tests pass.
 5. Go to the next batch of exercises (e.g. `npm run test:02`)
-6. Fyi, you can run `npm test` to run all unit tests.
+6. Run `npm run test:extra` when you're done with the base exercises
+7. You can run `npm test` to run all unit tests.
 
 **Additional debugging**
 
