@@ -12,7 +12,8 @@
     "build-prod": "parcel build src/index.html",
     "test": "jest --watchAll",
     "test:01": "jest tests/01_var_let_const.test --watchAll",
-    "test:02": "jest tests/02_template_literals.test --watchAll"
+    "test:02": "jest tests/02_template_literals.test --watchAll",
+    "test:03": "jest tests/03_arrow_functions.test --watchAll"
   },
   "dependencies": {},
   "devDependencies": {
