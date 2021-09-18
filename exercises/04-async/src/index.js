@@ -2,7 +2,7 @@ const API_PATH = 'http://localhost:8083';
 
 const apiRoutes = {
   poll: () => `${API_PATH}/poll/active`, // GET
-  vote: id => `${API_PATH}/poll/${id}/vote`, // POST
+  vote: id => `${API_PATH}/poll/${id}/vote`, // POST -> body: {optionId: 11} 💡 Tip: Read the MDN docs on example post method implementation
   result: id => `${API_PATH}/poll/${id}/result`, // GET
 };
 
