@@ -1,0 +1,1 @@
+# ES6 - Declarative programming with array methods
