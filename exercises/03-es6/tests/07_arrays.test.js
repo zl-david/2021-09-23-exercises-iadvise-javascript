@@ -1,6 +1,6 @@
 // To do: Fix the unit tests, leave the expect lines unchanged.
 
-import { exercise1, exercise3, exercise4, exercise5, exercise6, exercise7, exercise8, exercise9 } from "../src/06_arrays";
+import { exercise1, exercise3, exercise4, exercise5, exercise6, exercise7, exercise8, exercise9 } from "../src/07_arrays";
 
 // 06.1: Array.from
 

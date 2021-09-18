@@ -11,14 +11,6 @@
     "start": "parcel src/index.html",
     "build-prod": "parcel build src/index.html",
     "test": "jest --watchAll",
-    "test:01": "jest tests/01_var_let_const.test --watchAll",
-    "test:02": "jest tests/02_template_literals.test --watchAll",
-    "test:03": "jest tests/03_arrow_functions.test --watchAll",
-    "test:04": "jest tests/04_destructuring.test --watchAll",
-    "test:05": "jest tests/05_spread_operator.test --watchAll",
-    "test:06": "jest tests/06_map_filter_reduce.test --watchAll",
-    "test:07": "jest tests/07_arrays.test --watchAll",
-    "test:extra": "jest tests/99_extra.test --watchAll"
   },
   "dependencies": {},
   "devDependencies": {
