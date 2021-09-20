@@ -2,17 +2,17 @@ const API_PATH = 'http://localhost:8083';
 
 const apiRoutes = {
   poll: () => `${API_PATH}/poll/active`, // GET
-  vote: id => `${API_PATH}/poll/${id}/vote`, // POST -> body: {optionId: 11} 💡 Tip: Read the MDN docs on example post method implementation
+  vote: id => `${API_PATH}/poll/${id}/vote`, // POST 
   result: id => `${API_PATH}/poll/${id}/result`, // GET
 };
 
 /**
  * Helper function to log an image to the console.
- * Example usage: console.image("http://localhost:5000/images/iron-man.jpeg")
+ * Example usage: logImage("http://localhost:5000/images/iron-man.jpeg")
  * @param {*} url 
  * @param {*} size 
  */
-console.image = function(url, size = 200) {
+const logImage = function(url, size = 200) {
   var image = new Image();
   image.onload = function() {
     var style = [

@@ -12,7 +12,7 @@
 
 Exercises:
 
-1. 💻 [The Calculator](./exercises/02-functions/README.md)
+1. 💻 [The Calculator](./exercises/02-functions)
 
 Resources:
 
@@ -22,8 +22,8 @@ Resources:
 
 Exercises:
 
-1. 💻 [General ES6 exercises](./exercises/03-es6/README.md)
-2. 💻 [Declarative programming with array methods](./exercises/03-es6-arrays/README.md)
+1. 💻 [General ES6 exercises](./exercises/03-es6)
+2. 💻 [Declarative programming with array methods](./exercises/03-es6-arrays)
 
 
 Resources:
@@ -34,7 +34,7 @@ Resources:
 
 Exercises:
 
-1. 💻 [A Poll Console App](./exercises/04-async/README.md)
+1. 💻 [A Poll Console App](./exercises/04-async)
 
 Resources:
 
