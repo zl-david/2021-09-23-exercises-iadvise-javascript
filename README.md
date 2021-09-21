@@ -35,6 +35,7 @@ Resources:
 Exercises:
 
 1. 💻 [A Poll Console App](./exercises/04-async)
+2. 💻 [Extra: Battleship](./exercises/04-async-extra)
 
 Resources:
 
