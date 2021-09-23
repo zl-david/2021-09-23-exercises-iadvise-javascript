@@ -16,11 +16,10 @@ const heroes = [
   { name: "Scarlet Witch", strength: 60, gender: "f" },
   { name: "Mystique", strength: 120, gender: "f" },
   { name: "Namora", strength: 75000, gender: "f" },
-  { name: "Darkwing Duck", strength: 10, gender: "m" }
+  { name: "Darkwing Duck", strength: 10, gender: "m" },
 ];
 
 const hiddenIdentities = ["Hulk", "Spider-Man", "Darkwing Duck"];
-
 
 /*
  * Give me a list with heroes stronger than "500"
@@ -28,7 +27,6 @@ const hiddenIdentities = ["Hulk", "Spider-Man", "Darkwing Duck"];
  * Write your solution inside the "declarative" function
  */
 export function exercise1() {
-  
   const imperative = () => {
     const result = [];
     for (let i = 0; i < heroes.length; i++) {
@@ -37,11 +35,9 @@ export function exercise1() {
       }
     }
     return result;
-  }
+  };
 
-  const declarative = () => {
-
-  }
+  const declarative = () => {};
 
   return {
     imperative: imperative(),
@@ -55,18 +51,15 @@ export function exercise1() {
  * Write your solution inside the "declarative" function
  */
 export function exercise2() {
-  
   const imperative = () => {
     const result = [];
     for (let i = 0; i < heroes.length; i++) {
       result.push(heroes[i].name);
     }
     return result;
-  }
+  };
 
-  const declarative = () => {
-
-  }
+  const declarative = () => {};
 
   return {
     imperative: imperative(),
@@ -80,21 +73,18 @@ export function exercise2() {
  * Write your solution inside the "declarative" function
  */
 export function exercise3() {
-  
   const imperative = () => {
     const result = [];
     for (let i = 0; i < heroes.length; i++) {
       result.push({
         name: heroes[i].name,
-        hidden: hiddenIdentities.includes(heroes[i].name)
+        hidden: hiddenIdentities.includes(heroes[i].name),
       });
     }
     return result;
-  }
+  };
 
-  const declarative = () => {
-
-  }
+  const declarative = () => {};
 
   return {
     imperative: imperative(),
@@ -108,7 +98,6 @@ export function exercise3() {
  * Write your solution inside the "declarative" function
  */
 export function exercise4() {
-  
   const imperative = () => {
     let result = 0;
 
@@ -116,11 +105,9 @@ export function exercise4() {
       result += heroes[i].strength;
     }
     return result;
-  }
+  };
 
-  const declarative = () => {
-
-  }
+  const declarative = () => {};
 
   return {
     imperative: imperative(),
@@ -153,6 +140,6 @@ export function exercise7() {
 export function exercise8() {
   // IMPORTANT: A superhuman is a hero with a strength >= 500
   const result = heroes; // ← To implement
-  
+
   return result;
 }

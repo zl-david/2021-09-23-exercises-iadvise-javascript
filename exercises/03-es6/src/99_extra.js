@@ -1,4 +1,3 @@
-
 // 01.3: Extra Var Let Const
 
 /*
@@ -27,12 +26,11 @@ export function varLetConstExtra2() {
   return fruit[1];
 }
 
-
 // 02.3: Extra Template Literals
 
 /*
  * Use template literals (With variable substitution instead of "+" concatenation)
- *    to make the value of templateStringES6 the same as the the value of templateString 
+ *    to make the value of templateStringES6 the same as the the value of templateString
  * What do you think? Is it more readable?
  */
 export function templateLiteralsExtra1() {
@@ -66,13 +64,13 @@ export function templateLiteralsExtra2() {
     return classes;
   }
 
-  return { getCss, getCssEs6 }
+  return { getCss, getCssEs6 };
 }
 
 /*
  * Use template literals (With variable substitution instead of "+" concatenation)
- *    to make the value of templateStringES6 the same as the the value of templateString 
- */ 
+ *    to make the value of templateStringES6 the same as the the value of templateString
+ */
 export function templateLiteralsExtra3() {
   const firstName = "John";
   const lastName = "Doe";

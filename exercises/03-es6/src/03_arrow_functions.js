@@ -7,7 +7,7 @@
  * Refactor "addOne" to an arrow function. Make as short as possible.
  */
 export function exercise1() {
-  const addOne = function (a) {
+  const addOne = (a) => {
     return a + 1;
   };
 

@@ -18,6 +18,8 @@
     "test:05": "jest tests/05_spread_operator.test --watchAll",
     "test:06": "jest tests/06_map_filter_reduce.test --watchAll",
     "test:07": "jest tests/07_arrays.test --watchAll",
+    "test:08": "jest tests/08_optional_chaining.test --watchAll",
+    "test:09": "jest tests/09_nullish_coalescing.test --watchAll",
     "test:extra": "jest tests/99_extra.test --watchAll"
   },
   "dependencies": {},
