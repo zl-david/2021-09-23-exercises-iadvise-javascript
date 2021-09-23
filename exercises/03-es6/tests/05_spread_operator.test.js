@@ -1,6 +1,17 @@
 // To do: Fix the unit tests, leave the expect lines unchanged.
 
-import { exercise1, exercise2, exercise3, exercise4, exercise5, exercise6, exercise7, exercise8, exercise9 } from "../src/05_spread_operator";
+import {
+  exercise1,
+  exercise2,
+  exercise3,
+  exercise4,
+  exercise5,
+  exercise6,
+  exercise7,
+  exercise8,
+  exercise9,
+  exercise10,
+} from "../src/05_spread_operator";
 
 // 05.1: Spread syntax
 
@@ -43,7 +54,7 @@ describe("Combining Rest and Spread", () => {
   });
 
   it("rest syntax must be last in an array, spread can be used in any place", () => {
-    const {a, b, rest} = exercise7();
+    const { a, b, rest } = exercise7();
 
     expect(a).toEqual(1);
     expect(b).toEqual(2);
