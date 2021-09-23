@@ -26,10 +26,10 @@ export function exercise2() {
 }
 
 /*
- * Refactor "add" to an arrow function. Make as short as possible.
+ * Refactor "getCat" to an arrow function. Make as short as possible.
  */
 export function exercise3() {
-  const getCat = function (a, b) {
+  const getCat = function () {
     return {
       name: "Mikado",
       age: 5

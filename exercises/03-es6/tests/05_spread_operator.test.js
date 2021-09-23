@@ -55,24 +55,16 @@ describe("Combining Rest and Spread", () => {
 
 describe("Rest & Spread for objects", () => {
   it("merge 2 objects", () => {
-    const {merged,mergedES6} = exercise8()
+    const { merged, mergedES6 } = exercise8();
     expect(mergedES6).toEqual(merged);
   });
 
   it("merging overrides existing properties", () => {
-    const {merged,mergedES6} = exercise9()
+    const { merged, mergedES6 } = exercise9();
     expect(mergedES6).toEqual(merged);
   });
 
   it("get remaining properties", () => {
-    const obj = {
-      a: 1,
-      b: 2,
-      c: 3
-    };
-
-    const { a, rest } = obj; // ← Change left-hand side of assignment
-
-    expect(rest).toEqual({ b: 2, c: 3 });
+    expect(exercise10()).toEqual({ b: 2, c: 3 });
   });
 });

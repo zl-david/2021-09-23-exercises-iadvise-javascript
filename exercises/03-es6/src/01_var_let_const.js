@@ -56,7 +56,7 @@ export function exercise4() {
     constNum = 1;
   }
 
-  return increaseConstNum;
+  return increaseConstNum();
 }
 
 /*

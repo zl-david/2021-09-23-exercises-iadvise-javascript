@@ -12,3 +12,4 @@
 
 1. 🐛 What happens when you run `calculator(1,0).divide()`? Provide a user friendly message.
 2. 🕐 Keep history of the last 10 operations.
+3. Write a `calculator().previous(n)` function, which runs the n-last operation.
