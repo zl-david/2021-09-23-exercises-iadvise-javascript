@@ -40,3 +40,16 @@ Exercises:
 Resources:
 
 - 📄  [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+
+
+## 05. jQuery
+
+Exercises:
+
+1. 💻  [A file search](./exercises/05-jquery)
+2. 💻  A Poll Web App: Add jQuery to [Exercise 4.1](./exercises/04-async) and refactor the console app to a web app with a nice UI.
+    ```html
+    <!-- Add this line to the <head> of index.html -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" async></script>
+    ```
+3. 💻  Extra: Battleship browser game: Add jQuery to [Exercise 4.2](./exercises/04-async-extra) and refactor the console game to a web game. Make it pop!

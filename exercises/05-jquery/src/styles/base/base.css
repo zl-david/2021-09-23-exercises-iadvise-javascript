@@ -1,0 +1,75 @@
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #c8c8d9;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #c8c8d9;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #c8c8d9;
+}
+
+body {
+  padding: 4rem;
+  background-color: #f6f8fc;
+  color: #111c63;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+input[type='text'] {
+  padding: 2rem;
+  width: 100%;
+  background-color: white;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  transition: box-shadow 0.2s ease-out;
+  color: #111c63;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+input[type='text']:focus,
+input[type='text']:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+a {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border-radius: 1rem;
+  color: rgb(92, 93, 255);
+}
+a:hover {
+  background-color: rgb(92, 93, 255);
+  color: white;
+  transition: all 0.2s ease-out;
+}
+
+.with-input-adornment {
+  position: relative;
+}
+.with-input-adornment .input-adornment {
+  position: absolute;
+  left: 2rem;
+  top: 50%;
+  color: #5c5dff;
+  font-size: 2rem;
+  margin-top: -1rem;
+}
+.with-input-adornment input {
+  padding-left: 6rem;
+  position: relative;
+}
+
+.icon-folder {
+  font-size: 2em;
+  color: #5c5dff;
+  transition: color 0.2s ease-out;
+}

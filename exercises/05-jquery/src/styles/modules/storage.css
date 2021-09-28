@@ -1,0 +1,29 @@
+.storage {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.storage__total {
+  margin-left: auto;
+}
+.storage__meter {
+  height: 0.5em;
+  width: 100%;
+  margin-top: 1rem;
+  position: relative;
+
+  background-color: #eff3fc;
+  border-radius: 1rem;
+}
+.storage__meter > span {
+  display: block;
+  height: 100%;
+  position: relative;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  background-color: #578eff;
+  overflow: hidden;
+  transition: background-color 0.2s ease-out;
+}

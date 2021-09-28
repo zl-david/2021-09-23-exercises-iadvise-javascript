@@ -1,0 +1,12 @@
+.page {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.page__main {
+  padding-top: 5rem;
+}
+
+.page__main__section {
+  margin-bottom: 5rem;
+}

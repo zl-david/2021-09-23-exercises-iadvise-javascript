@@ -1,0 +1,59 @@
+.card {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  height: 16rem;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  width: 100%;
+  position: absolute;
+
+  background: white;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+.card__title {
+  font-size: 1.3em;
+  line-height: 1.5;
+}
+.card__icon {
+  height: 3em;
+  width: 3em;
+  background-color: #f6f8fc;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+}
+.card__icon__img {
+  width: 100%;
+}
+
+.card:hover {
+  margin-top: -2rem;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+  height: 20rem;
+  font-size: 1.8rem;
+  width: calc(100% + 3rem);
+
+  background: rgb(92, 93, 255);
+  /* background: radial-gradient(circle, rgba(92, 93, 255, 1) 50%, rgba(125, 129, 234, 1) 100%); */
+  color: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover .icon-folder {
+  color: white;
+}
+
+.card:hover .storage__meter > span {
+  background-color: #ffba0e;
+}
+
+.card--sm {
+  height: 12rem;
+}
+
+.card--sm:hover {
+  height: 14rem;
+}

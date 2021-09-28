@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Exercise</title>
+    <meta charset="utf-8" />
+    <script src="https://kit.fontawesome.com/992f3bd898.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" async></script>
+    <script src="./js/index.js" defer></script>
+    <link rel="stylesheet" href="./styles/base/vendor/normalize.css" />
+    <link rel="stylesheet" href="./styles/base/vendor/reset.css" />
+    <link rel="stylesheet" href="./styles/base/base.css" />
+
+    <link rel="stylesheet" href="./styles/modules/page.css" />
+    <link rel="stylesheet" href="./styles/modules/card-section.css" />
+    <link rel="stylesheet" href="./styles/modules/card.css" />
+    <link rel="stylesheet" href="./styles/modules/file-table.css" />
+    <link rel="stylesheet" href="./styles/modules/file-icon.css" />
+    <link rel="stylesheet" href="./styles/modules/header.css" />
+    <link rel="stylesheet" href="./styles/modules/storage.css" />
+
+    <link rel="stylesheet" href="./styles/state/text.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header>
+        <div class="with-input-adornment">
+          <input type="text" placeholder="Search the files" />
+          <i class="input-adornment fas fa-search"></i>
+        </div>
+      </header>
+      <main class="page__main">
+        <section class="page__main__section card-section">
+          <div class="card-section__item">
+            <div class="card">
+              <div>
+                <div class="card__icon">
+                  <img class="card__icon__img" src="images/googledrive.png" />
+                </div>
+                <div class="menu"></div>
+              </div>
+              <h3 class="card__title">Google Drive</h3>
+              <div class="storage">
+                <span class="storage__used">34.5 GB</span>
+                <span class="storage__total">50 GB</span>
+                <div class="storage__meter">
+                  <span style="width: 69%"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-section__item">
+            <div class="card">
+              <div>
+                <div class="card__icon">
+                  <img class="card__icon__img" src="images/dropbox.png" />
+                </div>
+                <div class="menu"></div>
+              </div>
+              <h3 class="card__title">Dropbox</h3>
+              <div class="storage">
+                <span class="storage__used">2 GB</span>
+                <span class="storage__total">5 GB</span>
+                <div class="storage__meter">
+                  <span style="width: 40%"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-section__item">
+            <div class="card">
+              <div>
+                <div class="card__icon">
+                  <img class="card__icon__img" src="images/icloud.png" />
+                </div>
+                <div class="menu"></div>
+              </div>
+              <h3 class="card__title">iCloud</h3>
+              <div class="storage">
+                <span class="storage__used">2.9 GB</span>
+                <span class="storage__total">3 GB</span>
+                <div class="storage__meter">
+                  <span style="width: 97%"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <header class="header">
+          <h2 class="header__title">Folders</h2>
+          <a href="#">View all</a>
+        </header>
+
+        <section class="page__main__section card-section card-section--small">
+          <div class="card-section__item">
+            <div class="card card--sm">
+              <span class="icon-folder"><i class="fas fa-folder"></i></span>
+              <div>
+                <h3 class="title">Invoices</h3>
+                <div>86 Files</div>
+              </div>
+            </div>
+          </div>
+          <div class="card-section__item">
+            <div class="card card--sm">
+              <span class="icon-folder"><i class="fas fa-folder"></i></span>
+
+              <div>
+                <h3 class="card__title">Projects</h3>
+                <div>20 Files</div>
+              </div>
+            </div>
+          </div>
+          <div class="card-section__item">
+            <div class="card card--sm">
+              <span class="icon-folder"><i class="fas fa-folder"></i></span>
+
+              <div>
+                <h3 class="card__title">Photos</h3>
+                <div>631 Files</div>
+              </div>
+            </div>
+          </div>
+          <div class="card-section__item">
+            <div class="card card--sm">
+              <span class="icon-folder"><i class="fas fa-folder"></i></span>
+
+              <div>
+                <h3 class="card__title">Music</h3>
+                <div>4523 Files</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <header class="header">
+          <h2 class="header__title">Recent Files</h2>
+          <a href="#">View all</a>
+        </header>
+
+        <section class="page__main__section">
+          <table class="file-table">
+            <thead>
+              <tr>
+                <th colspan="2">Name</th>
+                <th>Members</th>
+                <th class="align-right">Last modified</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="no-padding" width="50"><div class="file-icon pdf"></div></td>
+                <td>File 1</td>
+                <td>Only you</td>
+                <td class="align-right">Sep 3, 2019</td>
+              </tr>
+              <tr>
+                <td class="no-padding"><div class="file-icon doc"></div></td>
+                <td>Another file</td>
+                <td>3 members</td>
+                <td class="align-right">Aug 28, 2019</td>
+              </tr>
+              <tr>
+                <td class="no-padding"><div class="file-icon zip"></div></td>
+                <td>Some file</td>
+                <td>10 members</td>
+                <td class="align-right">Okt 15, 2019</td>
+              </tr>
+              <tr>
+                <td class="no-padding"><div class="file-icon doc"></div></td>
+                <td>A word document</td>
+                <td>Only you</td>
+                <td class="align-right">Aug 28, 2019</td>
+              </tr>
+              <tr>
+                <td class="no-padding"><div class="file-icon zip"></div></td>
+                <td>Another zip file</td>
+                <td>10 members</td>
+                <td class="align-right">Okt 15, 2019</td>
+              </tr>
+              <tr>
+                <td class="no-padding" width="50"><div class="file-icon pdf"></div></td>
+                <td>File 2</td>
+                <td>Only you</td>
+                <td class="align-right">Sep 3, 2019</td>
+              </tr>
+              <tr>
+                <td class="no-padding" width="50"><div class="file-icon pdf"></div></td>
+                <td>File 3</td>
+                <td>4 members</td>
+                <td class="align-right">Sep 3, 2019</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

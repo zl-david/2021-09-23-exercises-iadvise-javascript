@@ -1,0 +1,31 @@
+.file-icon {
+  width: 3rem;
+  height: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  color: white;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.file-icon.pdf {
+  background-color: #ff5b57;
+}
+.file-icon.pdf:after {
+  content: 'PDF';
+}
+
+.file-icon.doc {
+  background-color: #5892ff;
+}
+.file-icon.doc:after {
+  content: 'DOC';
+}
+
+.file-icon.zip {
+  background-color: #ffc000;
+}
+.file-icon.zip:after {
+  content: 'ZIP';
+}

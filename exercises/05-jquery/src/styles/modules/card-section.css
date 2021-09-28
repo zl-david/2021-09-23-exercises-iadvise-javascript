@@ -1,0 +1,19 @@
+.card-section {
+  height: 16rem;
+
+  display: flex;
+  justify-content: space-between;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+}
+
+.card-section--small {
+  height: 15rem;
+}
+
+.card-section__item {
+  flex: 1;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  position: relative;
+}
