@@ -40,7 +40,8 @@ Exercises:
 Resources:
 
 - 📄  [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
-
+- 📄  [Promises in Apex](https://vmorneau.me/javascript-promises-in-apex/)
+- 📄  [Problems with promises](https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html)
 
 ## 05. jQuery
 
@@ -53,3 +54,10 @@ Exercises:
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" async></script>
     ```
 3. 💻  Extra: Battleship browser game: Add jQuery to [Exercise 4.2](./exercises/04-async-extra) and refactor the console game to a web game. Make it pop!
+
+- 📄  [jQuery docs](https://api.jquery.com/)
+
+
+## 06. Examples & Key Takeaways
+
+[🔑 Examples & Key Takeaways](https://just-cereal-16a.notion.site/IAdvise-Key-Takeaways-a6afaee4706e428e95ccfe43ef13ea5f)
